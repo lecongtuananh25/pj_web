@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Bổng</title>
+    <link rel="stylesheet" href="./assets/scss/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    ">
+
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+
+<body>
+    <section class="header--contact">
+        <!-- =========Contact=========== -->
+        <section class="contact ">
+            <div class="container grid wide ">
+                <div class="contact_info">
+                    <div class="hotline">
+                        <div class="hotline__phone">
+                            <h4 class="hotline__phone_number">
+                                Hotline : <span>19007211</span>
+                            </h4>
+                        </div>
+                        <div class="hotline__email">
+                            <h4>Email : <a href="#">info.gse.edu.com</a></h4>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <a href="#" class="language__vietnam">
+                            <img src="./assets/images/vietnam.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========== Header   =========== -->
+        <header class="header sticky" data-toggle="sticky-onscroll">
+            <div class="container header__container grid wide ">
+                <div class="mobile_bars ">
+                    <a class="btn_shownav" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <div class="header__logo">
+                    <a href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+                </div>
+                <div class="header__nav ">
+                    <ul class="header__nav_list">
+                        <li class="header__nav_item show">
+                            <a href="./index.html"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="header__nav_item">
+                            <a href="./intro.html">về GSE</a>
+                        </li>
+                        <li class="header__nav_item">
+                            <a href="./service.html">Dịch vụ</a>
+
+                            <ul class="subnav-list">
+                                <li class="subnav-item">
+                                    <a href="./intro_advi.html">
+                                        Dịch vụ tư vấn du học
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="./intro_advi.html">
+                                        Dịch vụ đào tạo
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="intro_advi.html">
+                                        Dịch vụ sửa bài luận học bổng
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__nav_item">
+                            <a href="./destination.html">Quốc gia</a>
+                            <ul class="subnav-list">
+                                <li class="subnav-item">
+                                    <a href="./duhocanh.html">
+                                        Du Học Anh
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="./duhocanh.html">
+                                        Du Học Úc
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="./duhocanh.html">
+                                        Du Học Mỹ
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="./duhocanh.html">
+                                        Du Học Canada
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="./duhocanh.html">
+                                        Du Học Ireland
+                                    </a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="./duhocanh.html">
+                                        Du Học Singapore
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__nav_item">
+                            <a href="./hocbong.html">Học bổng</a>
+                        </li>
+                        <li class="header__nav_item">
+                            <a href="./tintuc.html">Tin tức</a>
+                        </li>
+
+                        <li class="header__nav_item">
+                            <a href="./lienhe.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__search">
+                    <div class="header__search_icon">
+                        <button class="btn_search"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="header__search_btn">
+                        <button class="btn btn_validator">Đăng ký tư vấn</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="header__search_overlay"></div>
+            <div class="header_form-search">
+                <div class="header_close"><i class="fas fa-times"></i></div>
+                <h3>Nhập thông tin bạn tìm kiếm?</h3>
+                <form action="">
+                    <div class="header_form-group">
+                        <input type="text " placeholder="Tìm trường, học bổng,...">
+                    </div>
+                    <button class="header_btn_search">Tìm kiếm</button>
+                </form>
+            </div>
+            <div class="header_form-valid container ">
+                <div class="header_close-valid"><i class="fas fa-times"></i></div>
+                <div class="main_form">
+                    <h3>Bạn muốn đi du học?</h3>
+                    <form action="" class="form_register">
+                        <div class="register__form_input">
+                            <div class="form_input">
+                                <input type="text" class="firstname_input" required>
+                                <label for="">Họ</label>
+                            </div>
+                            <div class="form_input">
+                                <input type="text" class="lastname_input" required>
+                                <label for="">Tên</label>
+                            </div>
+                            <div class="form_input">
+                                <input type="text" class="email_input" required>
+                                <label for="">Email</label>
+                            </div>
+                            <div class="form_input">
+                                <input type="text" class="phone_input" required>
+                                <label for="">SĐT</label>
+                            </div>
+
+                            <div class="form_input">
+                                <select class="country_reges" name="country">
+                                    <option value="Quốc gia muốn du học">Quốc gia muốn du học?</option>
+                                    <option value="Pháp">Pháp</option>
+                                    <option value="Mỹ">Mỹ</option>
+                                    <option value="Úc">Úc</option>
+                                </select>
+                            </div>
+                            <div class="form_input">
+                                <select class="year_reges" name="year">
+                                    <option value="Năm học dự kiến">Năm học dự kiến</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2022">2023</option>
+                                    <option value="2022">2024</option>
+                                </select>
+                            </div>
+                            <div class="form_input">
+                                <select name="branh_reges" class="branh">
+                                    <option value="văn phòng">Văn phòng</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                                </select>
+                            </div>
+                            <div class="form_input">
+                                <select name="question_reges" class="question">
+                                    <option value="question">bạn biết GSE ở đâu?</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="website">website</option>
+                                    <option value="bạn bè giới thiệu">bạn bè giới thiệu</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="register__btn">
+                            <button class="hotline_btn">19007211(hotline)</button>
+                            <button class="saleforce_sumit">Liên hệ ngay</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- =====Mobile== -->
+            <div class="header_mobile_overlay"></div>
+            <div class="header_mobile_nav">
+                <a href="#" class="btn_mobile-close"><i class="fas fa-times"></i></a>
+                <ul class="nav_mobile-list">
+                    <div class="nav_mobile-logo">
+                        <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                    <li class="nav_mobile-item">
+                        <a href="./intro.html">về GSE</a>
+                    </li>
+                    <li class="nav_mobile-item subnav--list">
+                        <a href="./service.html"> Dịch vụ</a>
+                        <span class="btn_drop"><i class="fas fa-caret-down icon_drop"></i></span>
+                        <ul class="subnav--list-mobile">
+                            <li class="subnav--item-mobile">
+                                <a href="./intro_advi.html">
+                                    Dịch vụ tư vấn du học
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="">
+                                    Dịch vụ đào tạo
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="">
+                                    Dịch vụ sửa bài luận học bổng
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav_mobile-item subnav--list">
+                        <a href="./destination.html">Quốc gia</a>
+                        <span class="btn_drop-ser"><i class="fas fa-caret-down icon_drop-ser"></i></span>
+
+                        <ul class="subnav--list-mobile-ser">
+                            <li class="subnav--item-mobile">
+                                <a href="./duhocanh.html">
+                                    Du Học Anh
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="./duhocanh.html">
+                                    Du Học Úc
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="./duhocanh.html">
+                                    Du Học Mỹ
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="./duhocanh.html">
+                                    Du Học Canada
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="./duhocanh.html">
+                                    Du Học Ireland
+                                </a>
+                            </li>
+                            <li class="subnav--item-mobile">
+                                <a href="./duhocanh.html">
+                                    Du Học Singapore
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav_mobile-item">
+                        <a href="./hocbong.html">Học bổng</a>
+                    </li>
+                    <li class="nav_mobile-item">
+                        <a href="./tintuc.html">Tin tức</a>
+                    </li>
+
+                    <li class="nav_mobile-item">
+                        <a href="./lienhe.html">Liên hệ</a>
+                    </li>
+                    <div class="nav_mobile_btn">
+                        <button class="btn btn_validate">Đăng ký tư vấn</button>
+                    </div>
+                </ul>
+            </div>
+        </header>
+        <!-- =================direction_social========== -->
+        <div class="direction__social">
+            <div class="direction__social-list ">
+                <a class="direction__social-item" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="direction__social-item" href=""><i class="fab fa-instagram"></i></a>
+                <a class="direction__social-item" href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="btn__direction">
+            <a class=" direction__social_btn" href=""><i class="fas fa-arrow-left icon"></i></a>
+        </div>
+    </section>
+    <!-- ======================bg========================== -->
+    <section class="dest_bg">
+        <div class="container grid wide">
+            <div class="dest_box row">
+                <div class="dest_header">
+                    <h1>Học Bổng</h1>
+                    <div class="dest_return">
+                        <a href="">Trang chủ</a><i class="fas fa-angle-double-right"></i><a href="">Học Bổng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================content============= -->
+    <section class="content_nation">
+        <div class="container grid wide">
+            <div class="content_nation__box row">
+                <div class="content_nation_info col l-8 m-8 c-12">
+                    <h2 class="content_nation_header">Học Bổng</h2>
+                    <div class="scholarship--list">
+                        <div class="scholarship--header row">
+                            <div class=" header-input col l-9 m-12 c-12">
+                                <input type="text" required>
+                                <label for=""> Tìm kiếm theo tên trường</label>
+                            </div>
+                            <div class=" col l-3 m-12 c-12">
+                                <select name="" id="">
+                                    <option value="Chọn bậc học">Chọn bậc học</option>
+                                    <option value="Tiếng Anh">Tiếng Anh</option>
+                                    <option value="Đại Học">Đại Học</option>
+                                    <option value="Trung Học">Trung Học</option>
+                                    <option value="Cao Đẳng">Cao Đẳng</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="scholarship--title row">
+                            <div class="scholarship-name col l-12 m-12 c-12">
+                                <img src="./assets/images/l3.png" alt="">
+                                <p>UNIVERSITY OF DURBY</p>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £2,000 cho SV quốc tế</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£2,000</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £2,000 cho SV quốc tế</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£2,000</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng hỗ trợ £500 khi đóng học phí sớm</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£500</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £500 dành cho cựu sinh viên</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i>Giá trị: <strong>£500</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng hỗ trợ £500 khi đóng học phí sớm</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£500</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng 100% học phí dành cho chương trình Thạc sĩ</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>100% học phí</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng 100% học phí dành cho chương trình Đại học</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>100% học phí</strong> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="scholarship--title row">
+                            <div class="scholarship-name col l-12 m-12 c-12">
+                                <img src="./assets/images/logo4.png" alt="">
+                                <p>
+                                    DE MONTFORT UNIVERSITY</p>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £500 – £1,500 dành cho chương trình Đại học</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£500 – £1,500</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £500 – £5,000 dành cho chương trình Thạc sĩ</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£500 - £5,000</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>HB £1,500 / £1,000 – DMU giành cho sinh viên Việt Nam</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£1,500 / £1,000</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>HB 100% học phí + hỗ trợ 5000GBP chi phí chỗ ở</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>100%</strong> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="scholarship--title row">
+                            <div class="scholarship-name col l-12 m-12 c-12">
+                                <img src="./assets/images/l5.jpg" alt="">
+                                <p>
+                                    RYERSON UNIVERSITY</p>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £2,000 cho SV quốc tế</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£2,000</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Vice-Chancellor Award Bursary</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£3,000</strong> </li>
+                                </ul>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>HB lên đến 21,755USD cho SV quốc tế y
+                                </h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Thạc sĩ</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£21,755</strong> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="scholarship--title row">
+                            <div class="scholarship-name col l-12 m-12 c-12">
+                                <img src="./assets/images/logo1.png" alt="">
+                                <p>
+                                    CITY UNIVERSITY LONDON</p>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng £2,000 cho SV quốc tế</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Đại học</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>£2,000</strong> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="scholarship--title row">
+                            <div class="scholarship-name col l-12 m-12 c-12">
+                                <img src="./assets/images/logo2.png" alt="">
+                                <p>
+                                    MASSEY UNIVERSITY</p>
+                            </div>
+                            <div class="scholarship-desc col l-12 m-12 c-12">
+                                <h4>Học bổng $5000 NZD cho chương trình Cao đẳng</h4>
+                                <ul>
+                                    <li><i class="fas fa-book-open"></i> Bậc học: Cao đẳng</li>
+                                    <li><i class="fas fa-coins"></i> Giá trị: <strong>$5000 NZD</strong> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_nation_sidebar col l-4 m-4 c-0">
+                    <div class="sidebar_container">
+                        <h3>QUỐC GIA</h3>
+                        <ul class="list-nation">
+                            <li class="item-nation">
+                                <a href="./duhocanh.html">Du Học Anh</a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Úc</a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Mỹ</a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Cannada</a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Pháp</a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Hà lan </a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Newzealan</a>
+                            </li>
+                            <li class="item-nation">
+                                <a href="">Du Học Singapore</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================form====================== -->
+    <section class="formvalid">
+        <div class="container formvalid__container grid wide">
+            <div class="fomvalid_box">
+                <div class="main_form wow fadeInUp" data-wow-delay="0.2s">
+                    <h3>Bạn muốn đi du học?</h3>
+                    <form action="" class="form_register">
+                        <div class="register__form_input">
+                            <div class="form_input">
+                                <input type="text" class="firstname_input" required>
+                                <label for="">Họ</label>
+                            </div>
+                            <div class="form_input">
+                                <input type="text" class="lastname_input" required>
+                                <label for="">Tên</label>
+                            </div>
+                            <div class="form_input">
+                                <input type="text" class="email_input" required>
+                                <label for="">Email</label>
+                            </div>
+                            <div class="form_input">
+                                <input type="text" class="phone_input" required>
+                                <label for="">SĐT</label>
+                            </div>
+
+                            <div class="form_input">
+                                <select class="country_reges" name="country">
+                            <option value="Quốc gia muốn du học">Quốc gia muốn du học?</option>
+                            <option value="Pháp">Pháp</option>
+                            <option value="Mỹ">Mỹ</option>
+                            <option value="Úc">Úc</option>
+                        </select>
+                            </div>
+                            <div class="form_input">
+                                <select class="year_reges" name="year">
+                            <option value="Năm học dự kiến">Năm học dự kiến</option>
+                            <option value="2022">2022</option>
+                            <option value="2022">2023</option>
+                            <option value="2022">2024</option>
+                        </select>
+                            </div>
+                            <div class="form_input">
+                                <select name="branh_reges" class="branh">
+                            <option value="văn phòng">Văn phòng</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        </select>
+                            </div>
+                            <div class="form_input">
+                                <select name="question_reges" class="question">
+                            <option value="question">bạn biết GSE ở đâu?</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="website">website</option>
+                            <option value="bạn bè giới thiệu">bạn bè giới thiệu</option>
+                          </select>
+                            </div>
+                        </div>
+                        <div class="register__btn">
+                            <button class="hotline_btn">19007211(hotline)</button>
+                            <button class="saleforce_sumit">Liên hệ ngay</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===================footer================== -->
+    <footer class="footer">
+        <div class="container footer__container grid wide">
+
+            <div class="footer__info row">
+
+                <div class="footer__contact col l-5 m-12 c-12">
+                    <div class="contact_logo">
+                        <a href=""> <img src="./assets/images/logo-3.png" alt=""></a>
+                    </div>
+                    <p class="hotline">
+                        <i class="fas fa-phone-alt"></i><a href="#"><span><strong>19007211</strong>(hotline)</span></a>
+                    </p>
+                    <ul class="contact_address">
+                        <li class="contact_office">
+                            <h4>Trụ sở Hà Nội</h4>
+                            <p>Hà Nội: Tầng 2, Tòa nhà Toserco, 273 Kim Mã, Q. Ba Đình, Hà Nội | Tel: <strong>024 3771 3561</strong> | Hotline: <strong>092 363 5656</strong></p>
+                        </li>
+                        <li class="contact_office">
+                            <h4>Trụ sở Hồ Chí Minh</h4>
+                            <p>Hồ Chí Minh: 255 Nguyễn Đình Chiểu, Phường 5, Quận 3, Thành phố Hồ Chí Minh | Tel:<strong>028 3820 7759</strong> | Hotline: <strong>093 499 9329</strong></p>
+                        </li>
+                        <li class="contact_office">
+                            <h4>Văn phòng Anh Quốc</h4>
+                            <p>Địa chỉ: 02 Shooters Hill Road, London SE18 4LP United Kingdom | Tel: <strong>+44 7845 715 602 </strong> | Email: <strong>uk@gse.du.vn</strong></p>
+                        </li>
+                    </ul>
+                    <div class="contact_license">
+                        <a href="#"><img src="./assets/images/ft1.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer__link col l-7 m-12 c-12">
+                    <div class="footer__link_list row">
+
+                        <div class="footer__link_item col l-4 m-12 c-12">
+                            <h4 class="item-header">Về GSE</h4>
+                            <ul class="list_menu">
+                                <li class="menu_item"><a href="">Giới Thiệu GSE</a></li>
+                                <li class="menu_item"><a href="">Việc làm tại GSE</a></li>
+                                <li class="menu_item"><a href="">Liên hệ với chúng tôi</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__link_item col l-4 m-12 c-12">
+                            <h4 class="item-header">Quốc gia du học</h4>
+                            <ul class="list_menu">
+                                <li class="menu_item"><a href="">Du học Anh</a></li>
+                                <li class="menu_item"><a href="">Du học Úc</a></li>
+                                <li class="menu_item"><a href="">Du học Mỹ</a></li>
+                                <li class="menu_item"><a href="">Du học Canada</a></li>
+                                <li class="menu_item"><a href="">Du học Singapore</a></li>
+                                <li class="menu_item"><a href="">Du học Ireland</a></li>
+                                <li class="menu_item"><a href="">Du học Hà Lan</a></li>
+                                <li class="menu_item"><a href="">Du học NewZealand</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__link_item col l-4 m-12 c-12">
+                            <h4 class="item-header">Thông tin du học hữu ích</h4>
+                            <ul class="list_menu">
+                                <li class="menu_item"><a href="">Học bổng</a></li>
+                                <li class="menu_item"><a href="">lịch gặp gỡ các trường</a></li>
+                                <li class="menu_item"><a href="">Dịch vụ GSE</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="footer_social">
+                        <ul class="list_social">
+                            <li class="item_social"><a href=""><i class="fab fa-facebook "></i></a></li>
+                            <li class="item_social"><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li class="item_social"><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li class="item_social"><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>@Copyright 2022 – Đơn vị tuyển sinh cùng 800 trường đại học hàng đầu thế giới.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
