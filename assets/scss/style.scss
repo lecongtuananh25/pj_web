@@ -196,7 +196,8 @@ img {
         left: 50%;
         transform: translateX(-50%);
         top: 35%;
-        width: 600px;
+        width: 100%;
+        max-width: 600px;
         padding: 30px;
         background-color: var(--white-color);
         border-radius: 15px;
@@ -209,6 +210,9 @@ img {
             font-size: 24px;
             font-weight: 600;
             color: #3b3663;
+            @include mobile() {
+                font-size: 18px;
+            }
         }
         form {
             display: flex;
@@ -218,6 +222,7 @@ img {
     }
     &_form-group {
         width: 60%;
+        margin-bottom: 20px;
         input {
             padding: 15px 30px;
             width: 100%;
