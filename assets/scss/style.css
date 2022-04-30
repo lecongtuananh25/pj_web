@@ -1057,7 +1057,11 @@ img {
 }
 .header_form-group {
   width: 60%;
-  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .header_form-group {
+    margin-bottom: 20px;
+  }
 }
 .header_form-group input {
   padding: 15px 30px;

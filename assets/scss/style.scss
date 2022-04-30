@@ -222,7 +222,9 @@ img {
     }
     &_form-group {
         width: 60%;
-        margin-bottom: 20px;
+        @include mobile() {
+            margin-bottom: 20px;
+        }
         input {
             padding: 15px 30px;
             width: 100%;
